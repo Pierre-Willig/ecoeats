@@ -1,6 +1,5 @@
 * {
-    margin: 0;
-    padding: 0;
+   
 }
 
 body { 
@@ -22,7 +21,7 @@ main {
     margin: 0;
 }
 
-nav ul { 
+nav ul, footer ul { 
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -31,11 +30,11 @@ nav ul {
     line-height: 1;
 }
 
-nav ul li { 
+nav ul li, footer ul li { 
     float: left;
 }
 
-nav ul li a {
+nav ul li a, footer ul li a {
     display: block;
     color: white;
     text-align: center;
@@ -43,7 +42,7 @@ nav ul li a {
     text-decoration: none;
 }
 
-nav ul li a:hover {
+nav ul li a:hover, footer ul li a:hover {
     background-color: #66a;
 }
 
@@ -62,7 +61,17 @@ ul {
 }
 
 .apropos {
-    justify-content: center;
-    align-content: center;
     text-align: center;
+}
+
+.menu {
+    
+}
+
+.howitworks {
+    text-align: center;
+}
+
+.contactform {
+    width: 50%;
 }

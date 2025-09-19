@@ -1,80 +1,108 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA Compatible" content="IE-edge">
-    <meta name="description" content="Livraison de nourriture fraiche, bio et très chère à domicile.">
-    <link rel="stylesheet" href="./styles/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA Compatible" content="IE-edge" />
+    <meta
+      name="description"
+      content="Livraison de nourriture fraiche, bio et très chère à domicile."
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>Mon CV pas beau</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav class="navigation">
-            <ul>
-                <li><a href="#apropos">À propos</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#howitworks">Comment ça marche</a></li>
-                <li><a href="#contactform">Formulaire de contact</a></li>
-                <li><a href="#links">Liens</a></li>
-            </ul>
-        </nav>
+      <nav class="navigation">
+        <ul>
+          <li><a href="#apropos">À propos</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#howitworks">Comment ça marche</a></li>
+          <li><a href="#contactform">Formulaire de contact</a></li>
+          <li><a href="#links">Liens</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main class="container">
-        <section>
-            <article class="apropos">
-                <img src="./images/logo.png" alt="Le sublime logo d'EcoEats">
-                <h1>Des repas frais et bios livrés chez vous en toute simplicité.</h1>            
-            </article>
-        </section>
+      <section>
+        <article class="apropos" id="apropos">
+          <p class="darkmode--ignore"><img src="./images/logo.png" alt="Le sublime logo d'EcoEats" /></p>
+          <h1>Des repas frais et bios livrés chez vous en toute simplicité.</h1>
+        </article>
+      </section>
 
-        <section>
-            <article class="menu">
-                <ul>
-                    <li><img src="./images/burger.png" alt="un borgar">
-                    Le burger "Gerbur" légendaire et ses ingrédients naturels.</li>
-                    <li><img src="./images/drink.png" alt="une boisson">
-                    Une boisson sympathique et bien goûtue.</li>
-                    <li><img src="./images/fries.png" alt="des frites">
-                    Des frites faites à partir de patates plantées sur Mars.</li>
-                    <li><img src="./images/sfiziosita.png" alt="Une pizza-tacos">
-                    Une pizza-tacos, faite avec viande et légumes bio.</li>
-                </ul>
-            </article>
-        </section>
+      <section>
+        <article class="menu" id="menu">
+          <ul>
+            <li>
+              <img src="./images/burger.png" alt="un borgar" class="darkmode--ignore"/> Le burger
+              "Gerbur" légendaire et ses ingrédients naturels.
+            </li>
+            <li>
+              <img src="./images/drink.png" alt="une boisson" class="darkmode--ignore"/>Une boisson
+              sympathique et bien goûtue.
+            </li>
+            <li>
+              <img src="./images/fries.png" alt="des frites" class="darkmode--ignore"/> Des frites
+              faites à partir de patates plantées sur Mars.
+            </li>
+            <li>
+              <img src="./images/sfiziosita.png" alt="Une pizza-tacos" class="darkmode--ignore" /> Une
+              pizza-tacos, faite avec viande et légumes bio.
+            </li>
+          </ul>
+        </article>
+      </section>
 
-        <section>
-            <article class="howitworks">
-                <h2>Comment ça marche ?</h2>
-                <p>
-                    Commandez simplement depuis notre site internet, entrez votre adresse et choisissez vos plats préférés. Nous préparons votre repas avec des ingrédients frais et bio, puis nous vous livrons rapidement à domicile.
-                </p>
-            </article>
-        </section>
+      <section>
+        <article class="howitworks" id="howitworks">
+          <h2>Comment ça marche ?</h2>
+          <p>
+            Commandez simplement depuis notre site internet, entrez votre
+            adresse et choisissez vos plats préférés. Nous préparons votre repas
+            avec des ingrédients frais et bio, puis nous vous livrons rapidement
+            à domicile.
+          </p>
+        </article>
+      </section>
 
-        <section>
-            <article class="contactform">
-                <fieldset>
-                <legend>Nous contacter:</legend>
-                    <form action="" method="get">
-                        <p><label for="nom">Entrez votre nom: &nbsp; </label><input type="text" name="nom" id="nom"></p>
-                        <p><label for="objet">Quel est l'objet de votre demande ?</label></p>
-                        <select name="objet" id="objet">
-                            <option value="devis">Demande de devis</option>
-                            <option value="commentaire">Donner un avis</option>
-                        </select><br>
-                        <p>Votre texte ici:</p>
-                        <textarea name="avis" id="avis" cols="30" rows="10" placeholder="Entrez votre demande"></textarea>
-                    </form>
-                </fieldset>
-            </article>
-        </section>
-        
+      <section>
+        <article class="contactform" id="contactform">
+          <fieldset>
+            <legend>Nous contacter:</legend>
+            <form action="" method="get">
+              <p>
+                <label for="nom">Entrez votre nom: &nbsp; </label
+                ><input type="text" name="nom" id="nom" />
+              </p>
+              <p>
+                <label for="objet">Quel est l'objet de votre demande ?</label>
+              </p>
+              <select name="objet" id="objet">
+                <option value="devis">Demande de devis</option>
+                <option value="commentaire">Donner un avis</option></select
+              ><br />
+              <p>Votre texte ici:</p>
+              <textarea
+                name="avis"
+                id="avis"
+                cols="30"
+                rows="10"
+                placeholder="Entrez votre demande"
+              ></textarea>
+            </form>
+          </fieldset>
+        </article>
+      </section>
     </main>
-    <footer class="page-footer">
-        
+    <footer class="page-footer" id="links">
+        <ul>
+            <li><a href="./mentions.html" target="_blank">Mentions légales</a></li>
+            <li><a href="./rien.html" target="_blank">Autre page</a></li>
+            <li><a href="./reseauxsociaux" target="_blank">Réseaux sociaux</a></li>
+        </ul>
     </footer>
-
-</body>
+  </body>
+</html>
