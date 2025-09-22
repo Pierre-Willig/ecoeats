@@ -65,7 +65,8 @@ ul {
 }
 
 .menu {
-    
+    padding: 7px 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
 }
 
 .howitworks {
@@ -75,3 +76,4 @@ ul {
 .contactform {
     width: 50%;
 }
+

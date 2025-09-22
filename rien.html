@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIEN</title>
+    <link rel="stylesheet" href="./styles/bulma.css" />
+</head>
+<body>
+<section class="hero is-fullheight">
+  <div class="hero-body has-text-centered">
+    <div class="container">
+      <div class="box">
+        <p class="title">Vous ne regardez rien depuis <span id="rien">0</span> secondes. </p>
+      </div>
+    </div>
+  </div>
+    <div class="field is-grouped">
+        <div class="control">
+            <button id="timebtn" class="button is-link" onclick="watchFaster()" disabled>Ne rien faire plus vite. Prix: &nbsp; <span id="prix">60</span>&nbsp; riens</button>
+        </div>
+        <div class="control">
+            <button id="secondGeneratorOne" class="button is-link" onclick="buyGeneratorOne()" disabled>Générer une seconde par seconde. (<span id="generatorOneOwned">0</span> | <span id="generatorOneOwnedTotal">0</span> )  Prix: &nbsp; <span id="prixGeneratorOne">100</span>&nbsp; riens</button>
+        </div>
+         <div class="control">
+            <button id="secondGeneratorTwo" class="button is-link" onclick="buyGeneratorTwo()" disabled>Générer une seconde par seconde... par seconde. (<span id="generatorTwoOwned">0</span> | <span id="generatorTwoOwnedTotal">0</span> )  Prix: &nbsp; <span id="prixGeneratorTwo">1500</span>&nbsp; riens</button>
+        </div>
+    </div>
+</section>
+
+    <script src="rien.js"></script>
+</body>
+</html>
